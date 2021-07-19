@@ -11,7 +11,14 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        Service<Repository>().method { result in
+            switch result {
+            case .success(let repository):
+                print(repository)
+            case .failure(let error):
+                print(error)
+            }
+        }
     }
 
 

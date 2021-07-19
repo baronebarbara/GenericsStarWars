@@ -15,6 +15,8 @@
 		B13533A126A4E5B5005AFAE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B135339F26A4E5B5005AFAE3 /* LaunchScreen.storyboard */; };
 		B13533AC26A4E5B5005AFAE3 /* GenericsStarWarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13533AB26A4E5B5005AFAE3 /* GenericsStarWarsTests.swift */; };
 		B13533B726A4E5B5005AFAE3 /* GenericsStarWarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13533B626A4E5B5005AFAE3 /* GenericsStarWarsUITests.swift */; };
+		B13533C526A4E5D3005AFAE3 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13533C426A4E5D3005AFAE3 /* Service.swift */; };
+		B13533C726A4EB28005AFAE3 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13533C626A4EB28005AFAE3 /* Repository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		B13533B226A4E5B5005AFAE3 /* GenericsStarWarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenericsStarWarsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B13533B626A4E5B5005AFAE3 /* GenericsStarWarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsStarWarsUITests.swift; sourceTree = "<group>"; };
 		B13533B826A4E5B5005AFAE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B13533C426A4E5D3005AFAE3 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		B13533C626A4EB28005AFAE3 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				B135339D26A4E5B5005AFAE3 /* Assets.xcassets */,
 				B135339F26A4E5B5005AFAE3 /* LaunchScreen.storyboard */,
 				B13533A226A4E5B5005AFAE3 /* Info.plist */,
+				B13533C426A4E5D3005AFAE3 /* Service.swift */,
+				B13533C626A4EB28005AFAE3 /* Repository.swift */,
 			);
 			path = GenericsStarWars;
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B135339926A4E5B2005AFAE3 /* ViewController.swift in Sources */,
+				B13533C526A4E5D3005AFAE3 /* Service.swift in Sources */,
+				B13533C726A4EB28005AFAE3 /* Repository.swift in Sources */,
 				B135339526A4E5B2005AFAE3 /* AppDelegate.swift in Sources */,
 				B135339726A4E5B2005AFAE3 /* SceneDelegate.swift in Sources */,
 			);
